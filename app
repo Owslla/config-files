@@ -82,22 +82,3 @@ Other:
     teachgammon - learn to play backgammon
     wargames - shall we play a game?
     wtf - translates acronyms for you
-
-# Alias ###################
-
-#Run all update/upgrade/clean steps
-alias u='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y'
-#Show "all" when using ls
-alias ls='ls -al'
-#show the current directory of the user inthe tree
-alias p='pwd'
-#force del command,'rm', saftey with interactivity
-alias rm='rm -i'
-#force copy command,'cp', saftey with interactivity
-alias cp='cp -i'
-#force rename comand, 'mv', saftey with interactivity
-alias mv='mv -i'
-#clear screen
-alias cls="clear"
-#Python 3.x 
-alias py="python3"
