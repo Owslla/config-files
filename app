@@ -1,4 +1,4 @@
-# Software #######################
+# CLI Software #######################
 # use 'man' to see details
 
 BY SOFTWARE TYPE:
