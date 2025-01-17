@@ -1,9 +1,11 @@
 #Custom Scripts ###################
 
 #Run all update/upgrade/clean steps
-alias u='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y'
+alias u='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo flatpak upgrade -y'
 #Show "all" when using ls
 alias ls='ls -al'
+#use 'batcat' as 'bat'
+alias bat='batcat'
 #show the current directory of the user inthe tree
 alias p='pwd'
 #force del command,'rm', saftey with interactivity
