@@ -1,5 +1,6 @@
 # CLI Software #######################
 # use 'man' to see details
+# Games from BSD games @ https://github.com/vattam/BSDGames
 
 BY SOFTWARE TYPE:
 
