@@ -1,3 +1,3 @@
 # config-files
 
-The main purpose of this repository is to hold and share my configuration and dotfiles used in a predominantly Linux based system environment. 
+The main goal of this repository is to store and share my Linux system configuration and dotfiles. 
