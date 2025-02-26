@@ -4,6 +4,10 @@
 alias u='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo flatpak upgrade -y'
 #Show "all" when using ls
 alias ls='ls -al'
+##More ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 #use 'batcat' as 'bat'
 alias bat='batcat'
 #show the current directory of the user inthe tree
