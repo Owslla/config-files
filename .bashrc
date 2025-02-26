@@ -115,3 +115,20 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# bash shell integrations
+
+### fzf ###
+# Set up fzf key bindings and fuzzy completion
+# ctrl-t : fzf select
+# ctrl-r : fzf history
+# alt-c  : fzf cd
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+### SET FZF Defaults
+set FZF_DEFAULT_OPTS "--layout=reverse --border=bold --border=rounded --margin=3% --color=dark"
+
+### SET STARSHIP as PROMPT
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+eval "$(starship init bash)"
