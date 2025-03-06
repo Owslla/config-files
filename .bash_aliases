@@ -2,7 +2,7 @@
 
 #Run all update/upgrade/clean steps
 ## apt
-alias u='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo flatpak upgrade -y && sudo snap refresh -y'
+alias u='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo flatpak upgrade -y && sudo snap refresh'
 ## nala
 alias nu='sudo nala upgrade -y && sudo nala autoremove -y && sudo nala clean && sudo flatpak upgrade -y && sudo snap refresh'
 
