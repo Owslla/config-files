@@ -8,7 +8,7 @@ alias nu='sudo nala upgrade -y && sudo nala autoremove -y && sudo nala clean && 
 
 # Update mirror list using nala fetch
 ## nala is in repos
-alias mirror="sudo nala fetch -c US --https-only --auto --fetches 5"
+alias mirror="sudo nala fetch -c US --https-only --auto"
 
 #### BASH COMMANDS ####
 
