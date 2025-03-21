@@ -41,6 +41,17 @@ alias cls="clear"
 #use 'kate' at the CLI to launch the Kate flatpak
 alias kate='flatpak run org.kde.kate'
 
+#Neovim
+alias neovim='nvim'
+alias vim='nvim'
+alias nv='nvim'
+
+#Git
+alias gca='git commit -a' #Git Commit Add
+alias gaa='git add .' #Git Add All
+alias grs='git status' #Git Repo Status
+alias gsw='git switch' #Git SWitch
+
 #Python 3.x 
 alias py="python3"
 
